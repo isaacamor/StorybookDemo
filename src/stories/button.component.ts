@@ -50,4 +50,5 @@ export default class ButtonComponent {
 
     return ['storybook-button', `storybook-button--${this.size}`, mode];
   }
+
 }
