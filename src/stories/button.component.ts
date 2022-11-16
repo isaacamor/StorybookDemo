@@ -37,7 +37,7 @@ export default class ButtonComponent {
    * @required
    */
   @Input()
-  label = 'Button';
+  label = 'My Button';
 
   /**
    * Optional click handler
@@ -50,5 +50,4 @@ export default class ButtonComponent {
 
     return ['storybook-button', `storybook-button--${this.size}`, mode];
   }
-
 }
